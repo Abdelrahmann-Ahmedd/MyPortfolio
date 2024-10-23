@@ -1,0 +1,93 @@
+.home {
+    display: none; 
+    height: calc(100vh - 56px);
+}
+
+.home h1 {
+    width: 120%;
+    font-size: 60px;
+    line-height: 90px;
+}
+
+.home h1 span {
+    font-size: 50px;
+}
+
+.home figure {
+    width: 100%;
+}
+
+.home figure img {
+    width: 100%;
+    background-blend-mode: multiply;
+}
+
+@media only screen and (max-width: 1200px) {
+    .home h1 {
+        font-size: 45px;
+        line-height: 70px;
+    }
+
+    .home h1 span {
+        font-size: 40px;
+        overflow: visible;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .home h1 {
+        margin: auto;
+        text-align: center;
+        width: 80%;
+    }
+
+    .home .row {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .home figure {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .home figure img {
+        width: 60%;
+        background-blend-mode: multiply;
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    .home h1 {
+        width: 100%;
+    }
+
+
+    
+    .home figure img {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .home h1 {
+        width: 100%;
+    }
+
+    .home h1 {
+        font-size: 30px;
+        line-height: 70px;
+    }
+
+    .home h1 span {
+        font-size: 25px;
+        overflow: visible;
+    }
+
+    .home figure img {
+        width: 90%;
+    }
+}
+

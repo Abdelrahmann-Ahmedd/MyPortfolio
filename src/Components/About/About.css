@@ -1,0 +1,19 @@
+.about {
+    width: 0px;
+    height: calc(100vh - 56px);
+}
+
+.about .aboutContent {
+    height: 0px;
+}
+
+hr {
+    height: 20px;
+    color: #ffc107;
+}
+
+@media only screen and (max-width:1200px) {
+    .about {
+        height: 100%;
+    }
+}

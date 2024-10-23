@@ -1,0 +1,12 @@
+.card {
+    width: 18rem;
+}
+
+.showy {
+    display: none;
+}
+
+.card img {
+    height: 180px;
+}
+

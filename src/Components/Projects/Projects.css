@@ -1,0 +1,10 @@
+.projects {
+    height: fit-content;
+}
+
+
+@media only screen and (max-width:769px) {
+    .card  {
+        margin: auto;
+    }
+}

@@ -1,0 +1,64 @@
+.skills {
+    height: calc(100vh - 56px);
+}
+
+.half, .halfStack {
+    height: calc(50vh - 56px);
+    display: none;
+}
+
+
+.fa-bootstrap {
+    color: #6f42c1;
+}
+
+.fa-html5, .fa-git-alt {
+    color: orangered;
+}
+
+.jquery, .cplus  {
+    width: 40px;
+}
+
+.postman {
+    width: 50px;
+    color: orange;
+}
+
+@media only screen and (max-width:1200px) {
+    .skills {
+        height: fit-content;
+    }
+
+    .half {
+        height: 50vh;
+    }
+
+    .halfStack {
+        height: 50vh;
+    }
+}
+
+@media only screen and (max-width:550px) {
+    .skills {
+        height: fit-content;
+    }
+
+    .half {
+        height: fit-content;
+        padding: 50px;
+        margin-top: 50px;
+    }
+
+    .half h2 {
+        margin-bottom: 50px !important;
+    }
+
+    .halfStack {
+        height: fit-content;
+    }
+
+    .halfStack .colContent {
+        align-items: center;
+    }
+}

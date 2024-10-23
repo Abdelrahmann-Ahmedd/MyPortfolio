@@ -1,0 +1,30 @@
+.contact {
+    height: calc(100vh - 56px);
+}
+
+.contact .contactContent {
+    width: 50%;
+    height: 0px;
+}
+
+form input {
+    height: 55px;
+    color: white;
+}
+
+form input:nth-child(6) {
+    height: 80px;
+}
+
+@media only screen and (max-width:992px) {
+    .contact .contactContent {
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width:576px) {
+    .contact .contactContent {
+        width: 100%;
+    }
+}
+
