@@ -11,7 +11,7 @@ import Error from './Components/Error/Error';
 
 
 const myRouter = createBrowserRouter([
-  { path:"/", element: <Layout />, children: [
+  { path:"/MYPortfolio", element: <Layout />, children: [
     { path:"", element: <Home /> },
     { path:"home", element: <Home /> },
     { path:"about", element: <About /> },

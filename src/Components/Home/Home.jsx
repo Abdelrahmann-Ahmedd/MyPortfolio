@@ -43,7 +43,7 @@ function Home() {
                 </div>
                 <div className="col-lg-6 ">
                     <figure>
-                        <img src={require("../../Assets/vecteezy_ai-generated-portrait-of-handsome-smiling-young-man-with_41642230.png")} alt="" />
+                        <img src={require("../../Assets/vecteezy_ai-generated-portrait-of-handsome-smiling-young-man-with_41642230.png")} alt="human" />
                     </figure>
                 </div>
             </div>

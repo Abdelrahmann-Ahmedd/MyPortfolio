@@ -1,0 +1,8 @@
+.error {
+    height: calc(100vh - 56px);
+} 
+
+.error img {
+    width: 40%;
+    height: 500px; 
+}

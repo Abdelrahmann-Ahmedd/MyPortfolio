@@ -33,7 +33,7 @@ function Skills() {
                             <span className='ms-2 fs-4 opacity-75 fw-bold'>BootStrap</span>
                         </div>
                         <div className='d-flex align-items-center mb-5' >
-                            <img className='jquery' src={require("../../Assets/pngwing.com.png")} alt="" />
+                            <img className='jquery' src={require("../../Assets/pngwing.com.png")} alt="jquery logo" />
                             <span className='ms-2 fs-4 opacity-75 fw-bold'>jQuery</span>
                         </div>
                         <div className='d-flex align-items-center mb-5' >
@@ -54,7 +54,7 @@ function Skills() {
                             <span className='ms-2 fs-4 opacity-75 fw-bold'>Python</span>
                         </div>
                         <div className='d-flex align-items-center mb-5' >
-                            <img className='cplus' src={require('../../Assets/C++_logo.png')} alt="" />
+                            <img className='cplus' src={require('../../Assets/C++_logo.png')} alt="c++ logo" />
                             <span className='ms-2 fs-4 opacity-75 fw-bold'>C++</span>
                         </div>
                     </div>
@@ -77,7 +77,7 @@ function Skills() {
                             <span className='ms-2 mb-3 fs-4 opacity-75 fw-bold'>MySQL</span>
                         </div>
                         <div className='mb-3 d-flex align-items-center me-5' >
-                            <img className='postman' src={require('../../Assets/png-transparent-postman-macos-bigsur-icon-thumbnail.png')} alt="" />
+                            <img className='postman' src={require('../../Assets/png-transparent-postman-macos-bigsur-icon-thumbnail.png')} alt="postman logo" />
                             <span className='ms-2 mb-3 fs-4 opacity-75 fw-bold'>PostMan</span>
                         </div>
                     </div>

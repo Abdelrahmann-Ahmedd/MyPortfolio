@@ -14,7 +14,7 @@ function Card(props) {
     return (
         <div className="showy col-xl-3 col-lg-4 col-md-6 mb-5">
             <div className="card bg-dark text-white rounded-3 shadow  p-2" >
-                <img src={img} className="card-img-top" alt="..."/>
+                <img src={img} className="card-img-top" alt="project screen"/>
                 <div className="card-body">
                     <h5 className="card-title text-center fs-4 fw-bold mb-4">{name}</h5>
                     <p className="card-text text-center opacity-50">{devices}</p>
