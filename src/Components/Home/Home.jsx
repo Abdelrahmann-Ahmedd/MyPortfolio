@@ -41,8 +41,8 @@ function Home() {
                             <span> I'm A <span className='fw-bold text-decoration-underline text-warning' ref={el}></span></span>
                         </h1>
                         <div className='grop w-50 mt-4 d-flex '>
-                            <button className="w-50 btn btn-outline-warning text-white"><Link className=' text-decoration-none text-white' to="">My Resume</Link></button>
-                            <button className="w-50 ms-4 btn btn-warning text-white"><Link className=' text-decoration-none text-white' to="/MyPortfolio/contact">Contact Me</Link></button>
+                            <button className="w-50 btn btn-outline-warning text-white"><Link className=' text-decoration-none text-white' target='_blank' to="https://drive.google.com/file/d/1j-luqR1iIS2RgTYbeGG4oCCGfdxb-fLi/view?usp=drive_link">My Resume</Link></button>
+                            <button className="w-50 ms-4 btn btn-warning text-white"><Link className=' text-decoration-none text-white' target='_blank' to="/MyPortfolio/contact">Contact Me</Link></button>
                         </div>
                     </div>
                 </div>
