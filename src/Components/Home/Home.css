@@ -22,6 +22,10 @@
     background-blend-mode: multiply;
 }
 
+.grop button {
+    height: fit-content;
+}
+
 @media only screen and (max-width: 1200px) {
     .home h1 {
         font-size: 45px;
@@ -35,6 +39,13 @@
 }
 
 @media only screen and (max-width: 992px) {
+    .grop {
+        margin: auto;
+    }
+    .home {
+        display: none; 
+        height: fit-content;
+    }
     .home h1 {
         margin: auto;
         text-align: center;
@@ -60,6 +71,7 @@
 }
 
 @media only screen and (max-width: 769px) {
+    
     .home h1 {
         width: 100%;
     }
