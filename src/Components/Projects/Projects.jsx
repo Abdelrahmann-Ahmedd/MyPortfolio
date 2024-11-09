@@ -11,6 +11,7 @@ import imgSrc7 from "../../Assets/Screenshot (354).png";
 import imgSrc8 from "../../Assets/Screenshot (355).png";
 import imgSrc9 from "../../Assets/Screenshot (356).png";
 import imgSrc10 from "../../Assets/Screenshot (358).png";
+import imgSrc11 from "../../Assets/Screenshot (359).png";
 
 
 function Projects() {
@@ -26,6 +27,7 @@ function Projects() {
         { id: 8, name: "Easybank Website", img: imgSrc8, devices: "Responsive", language: "React Bootstrap", code: "https://github.com/Abdelrahmann-Ahmedd/Easybank", live: "https://abdelrahmann-ahmedd.github.io/Easybank/" },
         { id: 9, name: "Movie App", img: imgSrc9, devices: "Responsive", language: "React Bootstrap API", code: "https://github.com/Abdelrahmann-Ahmedd/movie", live: "https://abdelrahmann-ahmedd.github.io/movie" },
         { id: 10, name: "Rest Countries", img: imgSrc10, devices: "Responsive", language: "React Bootstrap API", code: "https://github.com/Abdelrahmann-Ahmedd/RestCountry", live: "https://abdelrahmann-ahmedd.github.io/RestCountry/" },
+        { id: 11, name: "Rest Countries", img: imgSrc11, devices: "Responsive", language: "React Bootstrap API", code: "https://github.com/Abdelrahmann-Ahmedd/e-commerce", live: "https://abdelrahmann-ahmedd.github.io/e-commerce/" },
     ]
 
     const [projects,setProjects] = useState(allProjects);
